@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/CSharp/main.csproj": {}
+    "/home/runner/Snake-AI/main.csproj": {}
   },
   "projects": {
-    "/home/runner/CSharp/main.csproj": {
+    "/home/runner/Snake-AI/main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/CSharp/main.csproj",
+        "projectUniqueName": "/home/runner/Snake-AI/main.csproj",
         "projectName": "main",
-        "projectPath": "/home/runner/CSharp/main.csproj",
+        "projectPath": "/home/runner/Snake-AI/main.csproj",
         "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/CSharp/obj/",
+        "outputPath": "/home/runner/Snake-AI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/runner/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "netcoreapp6.0",
+          "dependencies": {
+            "UnicodeInformation": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/nix/store/knphr82kmbrymkmwv8dl86i37xbvg67z-dotnet-sdk-6.0.100/sdk/6.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/nix/store/jsm5am5i2b2izvwzbw5h6lk3plvpkrlw-dotnet-sdk-6.0.100/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

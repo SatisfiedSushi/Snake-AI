@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/DJYkJczWgwOxYzfg6+bgj2lw1HiE4teCgiVh1JXTMdteDux0ZcLIQB508ErXnQULLu/cPSMYJIV7uOhTw411Q==",
+  "dgSpecHash": "o9gDc5j4r0IqLPZNadttohQ6GYPercdv+ptqn/Ob5t+2GJqywwa6c8zDRpOp3MPMccjLt5VvhARmr7b8Nd9gGA==",
   "success": true,
-  "projectFilePath": "/home/runner/CSharp/main.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/runner/Snake-AI/main.csproj",
+  "expectedPackageFiles": [
+    "/home/runner/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "/home/runner/.nuget/packages/unicodeinformation/2.6.0/unicodeinformation.2.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

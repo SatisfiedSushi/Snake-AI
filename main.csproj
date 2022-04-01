@@ -6,4 +6,8 @@
 		<StartupObject>Program</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="UnicodeInformation" Version="2.6.0" />
+  </ItemGroup>
+
 </Project>

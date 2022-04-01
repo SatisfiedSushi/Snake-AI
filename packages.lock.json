@@ -1,6 +1,21 @@
 {
   "version": 1,
   "dependencies": {
-    "net6.0": {}
+    "net6.0": {
+      "UnicodeInformation": {
+        "type": "Direct",
+        "requested": "[2.6.0, )",
+        "resolved": "2.6.0",
+        "contentHash": "vlme1tWpxHMLZ12UNQ1ZFndQVscnQgyhnwiYCLTK5/ghGQGHbV6rvRDUvJuMN0KtzvSL1VWuX7q5chcGfNWrig==",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.5.0"
+        }
+      },
+      "System.ComponentModel.Annotations": {
+        "type": "Transitive",
+        "resolved": "4.5.0",
+        "contentHash": "UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg=="
+      }
+    }
   }
 }
